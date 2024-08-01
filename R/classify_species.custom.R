@@ -29,5 +29,5 @@ classify_species.custom <- function(data,species_col="Species",lookup_table){
     data$order[i] <- species_lookup$order[y]
     data$scientific.name[i] <- species_lookup$scientific.name[y]
   }
-  return(tibble::as.tibble(data))
+  return(tibble::as_tibble(data))
 }

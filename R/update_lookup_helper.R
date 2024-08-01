@@ -20,5 +20,5 @@ update_lookup <- function(common.name="string",type="string",scientific.name="st
   lookup <- Species_Lookup_20240725
   new_row <- dplyr::tibble(alt.common.name=common.name,type=type,scientific.name=scientific.name,enlish.name.ebird=english.name.ebird,order=order,family=family,domestic=domestic) #make the new row
   lookup <- dplyr::bind_rows(lookup,new_row) #bind the new row
-  return(lookup) #return the updated file.
+  return(tibble::as_tibble(lookup)) #return the updated file.
 }

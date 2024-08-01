@@ -2,4 +2,5 @@
 
 export(classify_species.common)
 export(classify_species.custom)
+export(days_to_run)
 export(update_lookup)
