@@ -28,5 +28,6 @@ classify_species.common <- function(data, species_col="Species"){
     data$order[i] <- species_lookup$order[y]
     data$scientific.name[i] <- species_lookup$scientific.name[y]
   }
-  return(data)
+  return(tibble::as_tibble(data))
 }
+

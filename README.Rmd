@@ -41,7 +41,7 @@ load("data/test_dat.rda")
 
 head(test_dat) #Notice the common names are in the "Species" column
 
-classify_species.common(data = test_dat,species_col = "Species")
+classify_species.common(data = test_dat,species_col = "Species") |> head()
 
 ```
 
