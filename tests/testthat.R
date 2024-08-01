@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(SpeciesClassifier)
+library(SpeciesClassifyR)
 
-test_check("SpeciesClassifier")
+test_check("SpeciesClassifyR")

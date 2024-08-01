@@ -85,7 +85,7 @@ use_git()
 ## add the read me
 use_readme_rmd()
 
-#adding in the BEAST helper function.
+1#adding in the BEAST helper function.
 use_r("days_to_run.R")
 # remove.packages(pkgs = "SpeciesClassifier")
 document()
@@ -97,3 +97,4 @@ load_all()
 check()
 
 #testing
+build_readme()

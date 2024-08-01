@@ -13,28 +13,28 @@ knitr::opts_chunk$set(
 )
 ```
 
-# SpeciesClassifier
+# SpeciesClassifyR
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SpeciesClassifier is to make the process of dealing with avian species data less of a headache. This package contains several functions that aim to replace common species names with latin species names. In addition the functions will also add order and family taxonomic labels. 
+The goal of SpeciesClassifier is to make the process of dealing with avian species data less of a headache. This package contains several functions that aim to replace common species names with latin species names. In addition the functions will also add order and family taxonomic labels.
 
 ## Installation
 
-You can install the development version of SpeciesClassifier from [GitHub](https://github.com/) with:
+You can install the development version of SpeciesClassifyR from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Jonathan-Dain-42/SpeciesClassifier")
+devtools::install_github("Jonathan-Dain-42/SpeciesClassifyR")
 ```
 
 ## Example
 
-This is a basic example in which we take common names and add in a latin name column, a family column and an order column. 
+This is a basic example in which we take common names and add in a latin name column, a family column, and an order column. 
 
 ```{r example}
-library(SpeciesClassifier)
+library(SpeciesClassifyR)
 
 ## basic example code
 load("data/test_dat.rda")

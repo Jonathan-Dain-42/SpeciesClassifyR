@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SpeciesClassifier
+# SpeciesClassifyR
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -14,21 +14,21 @@ taxonomic labels.
 
 ## Installation
 
-You can install the development version of SpeciesClassifier from
+You can install the development version of SpeciesClassifyR from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Jonathan-Dain-42/SpeciesClassifier")
+devtools::install_github("Jonathan-Dain-42/SpeciesClassifyR")
 ```
 
 ## Example
 
 This is a basic example in which we take common names and add in a latin
-name column, a family column and an order column.
+name column, a family column, and an order column.
 
 ``` r
-library(SpeciesClassifier)
+library(SpeciesClassifyR)
 
 ## basic example code
 load("data/test_dat.rda")
