@@ -81,4 +81,6 @@ load_all()
 
 # make a git repository
 use_git()
-3
+
+## add the read me
+use_readme_rmd()
