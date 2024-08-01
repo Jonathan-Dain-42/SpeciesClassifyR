@@ -24,7 +24,8 @@ devtools::install_github("Jonathan-Dain-42/SpeciesClassifier")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example in which we take common names and add in a latin
+name column, a family column and an order column.
 
 ``` r
 library(SpeciesClassifier)
