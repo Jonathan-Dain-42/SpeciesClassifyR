@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-![](Development_Speccies_Class/Untitled-1.png)
+<img src="Development_Speccies_Class/Untitled-1.png"
+style="width:30.0%" />
 
 The goal of SpeciesClassifier is to make the process of dealing with
 avian species data less of a headache. This package contains several
