@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+![](Development_Speccies_Class/Untitled-1.png)
+
 The goal of SpeciesClassifier is to make the process of dealing with
 avian species data less of a headache. This package contains several
 functions that aim to replace common species names with latin species
