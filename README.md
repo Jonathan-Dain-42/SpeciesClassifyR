@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SpeciesClassifyR
+# SpeciesClassifyR <img src="Development_Speccies_Class/Untitled-1.png" align="right" />
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -56,3 +56,8 @@ classify_species.common(data = test_dat,species_col = "Species") |> head()
 #> 5 chicken          north_dakota 2022-04-19      phasianid… gall… gallus gallus  
 #> 6 blue-winged teal minnesota    2022-09-15      anatidae … anse… spatula discors
 ```
+
+## Additional Information:
+
+A full tutorial on the other functions that this package contains can be
+found on my academic blog [here]()
