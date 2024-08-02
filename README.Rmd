@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 
-![](Development_Speccies_Class/Untitled-1.png){width=100} 
+![](Development_Speccies_Class/Untitled-1.png){width=250} 
 
 The goal of SpeciesClassifier is to make the process of dealing with avian species data less of a headache. This package contains several functions that aim to replace common species names with latin species names. In addition the functions will also add order and family taxonomic labels.
 
