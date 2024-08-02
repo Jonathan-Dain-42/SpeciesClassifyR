@@ -1,13 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SpeciesClassifyR <img src="Development_Speccies_Class/Untitled-1.png" align="right" />
+# SpeciesClassifyR
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-<img src="Development_Speccies_Class/Untitled-1.png"
-style="width:5.0%" />
+<img src="Development_Speccies_Class/Untitled-1.png" width="80" />
 
 The goal of SpeciesClassifier is to make the process of dealing with
 avian species data less of a headache. This package contains several
