@@ -98,3 +98,22 @@ check()
 
 #testing
 build_readme()
+
+use_r("classify_species.scientific.R")
+
+
+data("test_dat")
+
+classify_species.common(data = test_dat,species_col = "Species")->data
+
+classify_species.scientific(data = data,species_col = "scientific.name") |> View()
+
+
+### Let's make some test checks for .scientific and .custom.
+
+use_test("classify_species.scientific.R")
+use_data_raw("scientific.name_data_clean.R")
+test()
+check()
+load_all()
+document()
