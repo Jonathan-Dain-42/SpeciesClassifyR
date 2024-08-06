@@ -11,7 +11,8 @@ update_lookup(
   english.name.ebird = "string",
   order = "string",
   family,
-  domestic = "string"
+  domestic = "string",
+  lookup_table = NULL
 )
 }
 \arguments{
@@ -28,6 +29,8 @@ update_lookup(
 \item{family}{the https://birdsoftheworld.org taxonomic family for this species.}
 
 \item{domestic}{whether this is a domestic or wild species.}
+
+\item{lookup_table}{a user defined lookup table to allow for further editing. The default is set to NULL and utilizes the lookup table provided in the package.}
 }
 \value{
 Returns the updated lookup table with the new row added. It is highly recommended that the user save this as a seperate lookup file to be used with \code{classify_species.custom()} in the future.

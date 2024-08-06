@@ -59,4 +59,5 @@ classify_species.common(data = test_dat,species_col = "Species") |> head()
 ## Additional Information:
 
 A full tutorial on the other functions that this package contains can be
-found on my academic blog [here]()
+found on my academic blog
+[here](https://jonathan-dain-42.github.io/The-Duck-Tapes/Blog_Posts/2024-08-02/2024-08-02.html)
