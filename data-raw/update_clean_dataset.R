@@ -1,6 +1,9 @@
 ## code to prepare `update_clean_dataset` dataset goes here
 
-data <- readRDS(file = "Development_Speccies_Class/Species_Lookup_20240725.rds")
+# data <- readRDS(file = "Development_Speccies_Class/Species_Lookup_20240725.rds")
+
+load(file = "data/Species_Lookup_20240806.rda")
+data <- Species_Lookup_20240806
 
 # data <- data[1:10,]
 

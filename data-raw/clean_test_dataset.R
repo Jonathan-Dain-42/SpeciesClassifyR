@@ -1,8 +1,16 @@
 #load in the test dataset
 test_dat <- readRDS(file = "Development_Speccies_Class/Testing_Data.rds")
 
+# added on 20240806
+test_dat |>
+  dplyr::mutate_all(.funs=tolower)->test_dat
+test_dat |>
+  dplyr::mutate(Collection_Date=as.Date(Collection_Date,format="%Y-%m-%d")) -> test_dat
+
 #load in the species lookup
-Species_Lookup <- readRDS(file = "Development_Speccies_Class/Species_Lookup_20240531.rds")
+# Species_Lookup <- readRDS(file = "Development_Speccies_Class/Species_Lookup_20240531.rds")
+load(file = "data/Species_Lookup_20240806.rda")
+Species_Lookup <- Species_Lookup_20240806
 
 #add some empty columns in the test dataset
 test_dat$family <- NA

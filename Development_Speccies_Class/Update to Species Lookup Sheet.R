@@ -31,3 +31,35 @@ check()
 
 #update the version number
 usethis::use_version(which = "minor",push = FALSE)
+
+document()
+
+#update the classify functions to utilize this new lookup file.
+use_r(name = "classify_species.common.R")
+use_r(name="classify_species.scientific.R")
+
+#update the update_lookup helper to default to new lookup sheet
+use_r(name="update_lookup_helper.R")
+
+#update the test datasets to be consistent with the new species lookup
+#' doing manually with each.
+#'
+#' test_dataset.R (with new species lookup and lowercase)
+#' update_clean_dataset.R (with the new species lookup)
+#' clean_test_dataset.R (with the new species lookup)
+#' scientific.name_data_clean.R (with the new species lookup) - Actually not needed since it internally used the functions.
+#' update_test_dataset.R (with the new species lookup)
+
+# run the test()
+unload()
+load_all()
+document()
+test()
+check()
+
+#' Alright all the functions are now updated with the new species
+#' lookup file which has some african species as well as the
+#' entire lookup is lowercase, which generally makes things
+#' easier. Finally let's update the version to what we want.
+
+
