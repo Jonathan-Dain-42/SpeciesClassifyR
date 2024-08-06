@@ -62,4 +62,4 @@ check()
 #' entire lookup is lowercase, which generally makes things
 #' easier. Finally let's update the version to what we want.
 
-
+use_version(which = "patch",push = FALSE)
