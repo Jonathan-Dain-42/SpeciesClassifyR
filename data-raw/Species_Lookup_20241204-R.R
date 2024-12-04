@@ -133,7 +133,7 @@ new_lookup |>
 #   dplyr::filter(type=="other") |> View()
 
 # add in the wading birds and fix a few typos
-new_lookup$type[new_lookup$family%in%c("gruidae (cranes)",'rallidae (rails, gallinules, and coots)','ciconiidae (storks)','ardeidae (herons, egrets, and bitterns)','phoenicopteridae (flamingos)','threskiornithidae (ibises and spoonbills)')] <- "wading bords"
+new_lookup$type[new_lookup$family%in%c("gruidae (cranes)",'rallidae (rails, gallinules, and coots)','ciconiidae (storks)','ardeidae (herons, egrets, and bitterns)','phoenicopteridae (flamingos)','threskiornithidae (ibises and spoonbills)')] <- "wading birds"
 
 new_lookup$family[new_lookup$family=="lardeidae (herons, egrets, and bitterns)"] <- 'ardeidae (herons, egrets, and bitterns)'
 
