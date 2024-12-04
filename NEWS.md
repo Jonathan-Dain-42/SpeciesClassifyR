@@ -1,3 +1,5 @@
+# SpeciesClassifyR 0.4.0
+
 # SpeciesClassifyR 0.3.0
 
 # SpeciesClassifyR 0.2.1
@@ -19,3 +21,7 @@
 # SpeciesClassifyR 0.3.0
 
 * Updating the Species lookup file to version 20241204 and making it the default search in the classify.XXXXX functions. 
+
+# SpeciesClassifyR 0.4.0
+
+* Updating the package to inclluding the classify_species.type function to add functional groups to the tibble. 
