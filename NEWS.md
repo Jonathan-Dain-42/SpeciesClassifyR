@@ -1,3 +1,5 @@
+# SpeciesClassifyR 0.4.1
+
 # SpeciesClassifyR 0.4.0
 
 # SpeciesClassifyR 0.3.0
@@ -25,3 +27,7 @@
 # SpeciesClassifyR 0.4.0
 
 * Updating the package to inclluding the classify_species.type function to add functional groups to the tibble. 
+
+# SpeciesClassifyR 0.4.1
+
+* Fixed a typo where the new 'type' was incorectly called 'wading bords' it is now corrected to 'wading birds'
