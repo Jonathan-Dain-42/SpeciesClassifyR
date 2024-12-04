@@ -7,8 +7,8 @@
 #'
 #' @export
 classify_species.scientific <- function(data, species_col="scientific.name"){
-  utils::data("Species_Lookup_20240806")
-  species_lookup <- Species_Lookup_20240806
+  utils::data("Species_Lookup_20241204")
+  species_lookup <- Species_Lookup_20241204
   #make the new cols
   data$common.name <- NA
 
