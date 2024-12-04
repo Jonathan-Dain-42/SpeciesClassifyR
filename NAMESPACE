@@ -3,5 +3,6 @@
 export(classify_species.common)
 export(classify_species.custom)
 export(classify_species.scientific)
+export(classify_species.type)
 export(days_to_run)
 export(update_lookup)
