@@ -29,5 +29,6 @@ unload()
 test()
 load_all()
 check()
+document()
 
 usethis::use_version(which = "minor",push = FALSE)

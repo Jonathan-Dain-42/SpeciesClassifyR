@@ -9,6 +9,7 @@ load(file = "data/update_test_dataset.rda")
 load(file = "data/update_clean_dataset.rda")
 load(file = "data/Species_Lookup_20240806.rda")
 load(file = "data/Species_Lookup_20241204.rda")
+load(file = "data/Species_Lookup_20241213.rda")
 load(file = 'data/type_clean_dataset.rda')
 
 usethis::use_data(clean_test_data,
@@ -18,6 +19,7 @@ usethis::use_data(clean_test_data,
                   update_clean_dataset,
                   Species_Lookup_20240806,
                   Species_Lookup_20241204,
+                  Species_Lookup_20241213,
                   type_clean_dataset,
                   overwrite = TRUE,
                   internal = T)
