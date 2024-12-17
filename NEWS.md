@@ -1,3 +1,5 @@
+# SpeciesClassifyR 0.6.0
+
 # SpeciesClassifyR 0.5.0
 
 # SpeciesClassifyR 0.4.1
@@ -37,3 +39,7 @@
 # SpeciesClassifyR 0.5.0
 
 * Updating the Species lookup file to version 20241213 and making it the default search in the classify.XXXXX functions. 
+
+# SpeciesClassifyR 0.6.0
+
+* Updating the Species lookup file to version 20241217 and making it the default search in the classify.XXXXX functions. 
